@@ -6,7 +6,6 @@ const Movie = (props) => {
   const {onclick} = props;
   const [movie, setMovie] = useState(null);
   const id = props.match.params.id;
-  
   useEffect(() => {  
 
     // change ^^^ that line and grab the id from the URL
